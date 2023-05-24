@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: #F6F6F6;
+}
+
+main{
+    width: 1161px;
+    height: 550px;
+}
+h1{
+    font-size: 36px;
+}
+
+strong{
+    color: #22D4FD;
+    
+}
+
+p{
+    font-size: 24px;
+}
+
+img{
+    width: 488px;
+    height: 550px;
+}
