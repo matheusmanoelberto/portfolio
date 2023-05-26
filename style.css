@@ -1,26 +1,39 @@
+:root
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    height: 100hv;
+    box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
 }
 
-main{
-    width: 1161px;
-    height: 550px;
-}
-h1{
-    font-size: 36px;
-}
-
-strong{
+.titulo-destaque{
     color: #22D4FD;
     
 }
 
-p{
-    font-size: 24px;
+
+.apresentacao{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-img{
-    width: 488px;
-    height: 550px;
+.apresentacao__conteudo{
+    width: 615px;
+    height: 482px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
 }
