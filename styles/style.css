@@ -34,7 +34,7 @@ body{
 
 .cabecalho__menu__link{
     font-family: var(--fonte-segundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-secundaria);
 }
@@ -47,14 +47,14 @@ body{
 }
 
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 
@@ -63,7 +63,7 @@ body{
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-segundaria);
 }
 
@@ -78,18 +78,18 @@ body{
 .apresentacoes__links__subtitulos{
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
-.apresentacoes__links__link{
+.apresentacoes__links__navegacao{
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-secundaria);
     border-radius: 8px;
-    width: 378px;
+    width: 50%;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;    
     padding: 21.5px 0;
     /* text-decoration: none; foi colocado na parte de reset */
@@ -98,15 +98,19 @@ body{
     
 }
 
-.apresentacoes__links__link:hover{
+.apresentacoes__links__navegacao:hover{
     background-color: var(--cor-hover);
+}
+
+.apresentacao__imagem{
+    width: 50%;
 }
 
 .rodape{
     background-color: var(--cor-secundaria);
     color: var(--cor-primaria);
     padding: 24px;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
     font-family: var(--fonte-segundaria);
     font-weight: 400;
